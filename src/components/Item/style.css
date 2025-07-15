@@ -1,0 +1,23 @@
+.item{
+    width: 100%;
+    height: 60px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+.date{
+    color: lightgray;
+    font-size: 15px !important;
+}
+.ititle{
+    /* font-size: 15px !important; */
+    width: 70%;
+}
+.ititle.complete label{
+    text-decoration: line-through;
+}
+.fa-trash{
+    font-size: 15px !important;
+}
